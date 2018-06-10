@@ -56,7 +56,7 @@ func DeletePersonEndPoint(w http.ResponseWriter, req *http.Request) {
 	}
 	json.NewEncoder(w).Encode(people)
 }
-
+/*
 func main() {
 	router := mux.NewRouter()
 	people = append(people, Person{ID: "1", Firstname: "Nic", Lastname: "dang", Address: &Address{City: "Dublin", State: "California"}})
@@ -68,3 +68,4 @@ func main() {
 	log.Fatal(http.ListenAndServe(":1234", router))
 
 }
+*/
