@@ -32,4 +32,3 @@
   branch = "master"
   name = "github.com/neelance/graphql-go"
 
-unused-packages = true
