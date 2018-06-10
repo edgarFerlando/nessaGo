@@ -27,4 +27,9 @@
 
 [prune]
   go-tests = true
-  unused-packages = true
+  
+[[constraint]]
+  branch = "master"
+  name = "github.com/neelance/graphql-go"
+
+unused-packages = true
