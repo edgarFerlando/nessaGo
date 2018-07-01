@@ -9,9 +9,9 @@ import (
 	"os"
 	"sort"
 
+	"github.com/go-graphql"
 	"github.com/gomodule/redigo/redis"
 	"github.com/gorilla/mux"
-	"github.com/graphql-go/go-graphql"
 	graphqlHandler "github.com/graphql-go/handler"
 	homedir "github.com/mitchellh/go-homedir"
 	log "github.com/sirupsen/logrus"
